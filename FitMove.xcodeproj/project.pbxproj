@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421905A32532D80F00384E38 /* GameServerWebsocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A22532D80F00384E38 /* GameServerWebsocketDelegate.swift */; };
+		421905A62532DF7400384E38 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A52532DF7400384E38 /* DummyViewController.swift */; };
+		421905A92532F4A200384E38 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A82532F4A200384E38 /* ImageProcessor.swift */; };
+		4230B0AE2532B63F00BBFC43 /* GameServerWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230B0AD2532B63F00BBFC43 /* GameServerWebsocket.swift */; };
+		424920802537569D00AAB605 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249207F2537569D00AAB605 /* APIEndpoint.swift */; };
+		424920842537574200AAB605 /* HTTPRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424920832537574200AAB605 /* HTTPRequst.swift */; };
+		42596E58253724A800778B1F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596E57253724A800778B1F /* Auth.swift */; };
+		42860C442533F593008DB889 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42860C432533F593008DB889 /* GameLogic.swift */; };
+		42860C4D2533FA51008DB889 /* GameMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42860C4C2533FA51008DB889 /* GameMechanics.swift */; };
+		429A7680253352CA00FAB585 /* VideoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429A767F253352CA00FAB585 /* VideoUtils.swift */; };
+		429A768325336AB200FAB585 /* GamePoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429A768225336AB200FAB585 /* GamePoseDetector.swift */; };
+		42AD8CAA2537E29500CC06FB /* LocalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD8CA92537E29500CC06FB /* LocalDB.swift */; };
+		42BB2AB82531FAA100F19D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2AB72531FAA100F19D25 /* AppDelegate.swift */; };
+		42BB2ABA2531FAA100F19D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2AB92531FAA100F19D25 /* SceneDelegate.swift */; };
+		42BB2ABC2531FAA100F19D25 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2ABB2531FAA100F19D25 /* GameVC.swift */; };
+		42BB2ABF2531FAA100F19D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BB2ABD2531FAA100F19D25 /* Main.storyboard */; };
+		42BB2AC12531FAA200F19D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BB2AC02531FAA200F19D25 /* Assets.xcassets */; };
+		42BB2AC42531FAA200F19D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BB2AC22531FAA200F19D25 /* LaunchScreen.storyboard */; };
+		42E8AB1E2536ED83002DA01E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8AB1D2536ED83002DA01E /* HomeVC.swift */; };
+		42E8AB3925371336002DA01E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8AB3825371336002DA01E /* SignInVC.swift */; };
+		7E3B8D50BB74D2B918AFE1EF /* Pods_FitMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D7D9EBDF80D7D7F77986E2 /* Pods_FitMove.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BE8DC639B7A2E96377A099B /* Pods-FitMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitMove.release.xcconfig"; path = "Target Support Files/Pods-FitMove/Pods-FitMove.release.xcconfig"; sourceTree = "<group>"; };
+		421905A22532D80F00384E38 /* GameServerWebsocketDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServerWebsocketDelegate.swift; sourceTree = "<group>"; };
+		421905A52532DF7400384E38 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		421905A82532F4A200384E38 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		4230B0AD2532B63F00BBFC43 /* GameServerWebsocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServerWebsocket.swift; sourceTree = "<group>"; };
+		4249207F2537569D00AAB605 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		424920832537574200AAB605 /* HTTPRequst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequst.swift; sourceTree = "<group>"; };
+		42596E57253724A800778B1F /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		42860C432533F593008DB889 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		42860C4C2533FA51008DB889 /* GameMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMechanics.swift; sourceTree = "<group>"; };
+		429A767F253352CA00FAB585 /* VideoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUtils.swift; sourceTree = "<group>"; };
+		429A768225336AB200FAB585 /* GamePoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePoseDetector.swift; sourceTree = "<group>"; };
+		42AD8CA92537E29500CC06FB /* LocalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDB.swift; sourceTree = "<group>"; };
+		42BB2AB42531FAA100F19D25 /* FitMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BB2AB72531FAA100F19D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42BB2AB92531FAA100F19D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42BB2ABB2531FAA100F19D25 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		42BB2ABE2531FAA100F19D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BB2AC02531FAA200F19D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BB2AC32531FAA200F19D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BB2AC52531FAA200F19D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E8AB1D2536ED83002DA01E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		42E8AB3825371336002DA01E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		58BEF71236F3EC5EE7DB8589 /* Pods-FitMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitMove.debug.xcconfig"; path = "Target Support Files/Pods-FitMove/Pods-FitMove.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D7D9EBDF80D7D7F77986E2 /* Pods_FitMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BB2AB12531FAA100F19D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B8D50BB74D2B918AFE1EF /* Pods_FitMove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B510902D1F7BDCF718B8F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5D7D9EBDF80D7D7F77986E2 /* Pods_FitMove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F7EBB662CCC466E14065AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58BEF71236F3EC5EE7DB8589 /* Pods-FitMove.debug.xcconfig */,
+				1BE8DC639B7A2E96377A099B /* Pods-FitMove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4230B0A82531FDDE00BBFC43 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42BB2ABB2531FAA100F19D25 /* GameVC.swift */,
+				421905A52532DF7400384E38 /* DummyViewController.swift */,
+				42E8AB1D2536ED83002DA01E /* HomeVC.swift */,
+				42E8AB3825371336002DA01E /* SignInVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4230B0AA2531FE0700BBFC43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				421905A82532F4A200384E38 /* ImageProcessor.swift */,
+				429A767F253352CA00FAB585 /* VideoUtils.swift */,
+				429A768225336AB200FAB585 /* GamePoseDetector.swift */,
+				42860C432533F593008DB889 /* GameLogic.swift */,
+				42860C4C2533FA51008DB889 /* GameMechanics.swift */,
+				42AD8CA92537E29500CC06FB /* LocalDB.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4230B0AB2531FE1800BBFC43 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				42596E57253724A800778B1F /* Auth.swift */,
+				4230B0AD2532B63F00BBFC43 /* GameServerWebsocket.swift */,
+				421905A22532D80F00384E38 /* GameServerWebsocketDelegate.swift */,
+				4249207F2537569D00AAB605 /* APIEndpoint.swift */,
+				424920832537574200AAB605 /* HTTPRequst.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		4230B0AC2531FEF600BBFC43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42BB2AAB2531FAA100F19D25 = {
+			isa = PBXGroup;
+			children = (
+				42BB2AB62531FAA100F19D25 /* FitMove */,
+				42BB2AB52531FAA100F19D25 /* Products */,
+				30F7EBB662CCC466E14065AB /* Pods */,
+				0B510902D1F7BDCF718B8F4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42BB2AB52531FAA100F19D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BB2AB42531FAA100F19D25 /* FitMove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BB2AB62531FAA100F19D25 /* FitMove */ = {
+			isa = PBXGroup;
+			children = (
+				4230B0AC2531FEF600BBFC43 /* Model */,
+				4230B0AB2531FE1800BBFC43 /* HTTP */,
+				4230B0AA2531FE0700BBFC43 /* Utils */,
+				4230B0A82531FDDE00BBFC43 /* ViewController */,
+				42BB2AB72531FAA100F19D25 /* AppDelegate.swift */,
+				42BB2AB92531FAA100F19D25 /* SceneDelegate.swift */,
+				42BB2ABD2531FAA100F19D25 /* Main.storyboard */,
+				42BB2AC02531FAA200F19D25 /* Assets.xcassets */,
+				42BB2AC22531FAA200F19D25 /* LaunchScreen.storyboard */,
+				42BB2AC52531FAA200F19D25 /* Info.plist */,
+			);
+			path = FitMove;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BB2AB32531FAA100F19D25 /* FitMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BB2AC82531FAA200F19D25 /* Build configuration list for PBXNativeTarget "FitMove" */;
+			buildPhases = (
+				B105B5085D3EB725656C36AC /* [CP] Check Pods Manifest.lock */,
+				42BB2AB02531FAA100F19D25 /* Sources */,
+				42BB2AB12531FAA100F19D25 /* Frameworks */,
+				42BB2AB22531FAA100F19D25 /* Resources */,
+				8A1923197BBC0B879A45DA75 /* [CP] Embed Pods Frameworks */,
+				FAB5CC511AFAC4F9102E7031 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitMove;
+			productName = FitMove;
+			productReference = 42BB2AB42531FAA100F19D25 /* FitMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BB2AAC2531FAA100F19D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					42BB2AB32531FAA100F19D25 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 42BB2AAF2531FAA100F19D25 /* Build configuration list for PBXProject "FitMove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BB2AAB2531FAA100F19D25;
+			productRefGroup = 42BB2AB52531FAA100F19D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BB2AB32531FAA100F19D25 /* FitMove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BB2AB22531FAA100F19D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BB2AC42531FAA200F19D25 /* LaunchScreen.storyboard in Resources */,
+				42BB2AC12531FAA200F19D25 /* Assets.xcassets in Resources */,
+				42BB2ABF2531FAA100F19D25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A1923197BBC0B879A45DA75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B105B5085D3EB725656C36AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitMove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB5CC511AFAC4F9102E7031 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitMove/Pods-FitMove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BB2AB02531FAA100F19D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4230B0AE2532B63F00BBFC43 /* GameServerWebsocket.swift in Sources */,
+				42860C442533F593008DB889 /* GameLogic.swift in Sources */,
+				421905A62532DF7400384E38 /* DummyViewController.swift in Sources */,
+				42BB2ABC2531FAA100F19D25 /* GameVC.swift in Sources */,
+				42860C4D2533FA51008DB889 /* GameMechanics.swift in Sources */,
+				42AD8CAA2537E29500CC06FB /* LocalDB.swift in Sources */,
+				42E8AB3925371336002DA01E /* SignInVC.swift in Sources */,
+				429A7680253352CA00FAB585 /* VideoUtils.swift in Sources */,
+				42BB2AB82531FAA100F19D25 /* AppDelegate.swift in Sources */,
+				421905A92532F4A200384E38 /* ImageProcessor.swift in Sources */,
+				421905A32532D80F00384E38 /* GameServerWebsocketDelegate.swift in Sources */,
+				42E8AB1E2536ED83002DA01E /* HomeVC.swift in Sources */,
+				42596E58253724A800778B1F /* Auth.swift in Sources */,
+				429A768325336AB200FAB585 /* GamePoseDetector.swift in Sources */,
+				42BB2ABA2531FAA100F19D25 /* SceneDelegate.swift in Sources */,
+				424920802537569D00AAB605 /* APIEndpoint.swift in Sources */,
+				424920842537574200AAB605 /* HTTPRequst.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42BB2ABD2531FAA100F19D25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BB2ABE2531FAA100F19D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BB2AC22531FAA200F19D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BB2AC32531FAA200F19D25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BB2AC62531FAA200F19D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42BB2AC72531FAA200F19D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BB2AC92531FAA200F19D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BEF71236F3EC5EE7DB8589 /* Pods-FitMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87WHDY7XDH;
+				INFOPLIST_FILE = FitMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.FitMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BB2ACA2531FAA200F19D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE8DC639B7A2E96377A099B /* Pods-FitMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87WHDY7XDH;
+				INFOPLIST_FILE = FitMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.FitMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BB2AAF2531FAA100F19D25 /* Build configuration list for PBXProject "FitMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BB2AC62531FAA200F19D25 /* Debug */,
+				42BB2AC72531FAA200F19D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BB2AC82531FAA200F19D25 /* Build configuration list for PBXNativeTarget "FitMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BB2AC92531FAA200F19D25 /* Debug */,
+				42BB2ACA2531FAA200F19D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42BB2AAC2531FAA100F19D25 /* Project object */;
+}

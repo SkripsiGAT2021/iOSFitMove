@@ -1,0 +1,142 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - GoogleDataTransport (7.5.1):
+    - nanopb (~> 1.30906.0)
+  - GoogleMLKit/MLKitCore (0.64.0):
+    - MLKitCommon (~> 0.64.0)
+  - GoogleMLKit/PoseDetection (0.64.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitPoseDetection (~> 0.64.0)
+  - GoogleMLKit/PoseDetectionAccurate (0.64.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitPoseDetectionAccurate (~> 0.64.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.2)
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.2)"
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.0.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.1.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher (~> 1.4)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - MLKitCommon (0.64.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitPoseDetection (0.64.0):
+    - MLKitCommon (~> 0.64)
+    - MLKitPoseDetectionCommon (~> 0.64)
+    - MLKitXenoCommon (~> 0.64)
+  - MLKitPoseDetectionAccurate (0.64.0):
+    - MLKitCommon (~> 0.64)
+    - MLKitPoseDetectionCommon (~> 0.64)
+    - MLKitXenoCommon (~> 0.64)
+  - MLKitPoseDetectionCommon (0.64.0):
+    - MLKitCommon (~> 0.64)
+    - MLKitXenoCommon (~> 0.64)
+  - MLKitVision (0.64.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLKitCommon (~> 0.64)
+    - Protobuf (~> 3.12)
+  - MLKitXenoCommon (0.64.0):
+    - MLKitCommon (~> 0.64)
+    - MLKitVision (~> 0.64)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - PromisesObjC (1.2.11)
+  - Protobuf (3.13.0)
+  - Starscream (4.0.4)
+  - youtube-ios-player-helper (1.0.2)
+
+DEPENDENCIES:
+  - GoogleMLKit/PoseDetection
+  - GoogleMLKit/PoseDetectionAccurate
+  - GoogleSignIn
+  - Starscream (~> 4.0.0)
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - MLKitCommon
+    - MLKitPoseDetection
+    - MLKitPoseDetectionAccurate
+    - MLKitPoseDetectionCommon
+    - MLKitVision
+    - MLKitXenoCommon
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - Starscream
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
+  GoogleMLKit: 3c1f895592d95625eb57b8e66d4f13a5d36f9b49
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
+  GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  MLKitCommon: dc2909c96dbf7f5a75b86a3d2fa1b92ff3f6a30b
+  MLKitPoseDetection: 2d826e15e2e21d2692835a186c15a26704474042
+  MLKitPoseDetectionAccurate: 7ebd8915b25e424b5bb469778f1af72b1c54cc38
+  MLKitPoseDetectionCommon: cfa5e1bd8f77b403e80f39cbafac7e3211018408
+  MLKitVision: bd96ec12ea19d589435523c914766538da259161
+  MLKitXenoCommon: 6e5e91d572ece9448e4600bf46a8918f3b363ed5
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  youtube-ios-player-helper: 40b96e52c22445f0fdc43731cefa32c67075ff81
+
+PODFILE CHECKSUM: 0db47ac467dcb1c46debee9643abcd82ef09742a
+
+COCOAPODS: 1.9.3
