@@ -9,6 +9,7 @@ import Foundation
 import MLKit
 
 class GamePlayMirror: GameCoreMechanic, GamePlay {
+    let id:UUID = UUID.init()
     func onGamePlay(pose: Pose) {
         // IF Message from server start game, init timer
         if ImageProcessor.checkPose(pose: pose, wantedPose: getCurrentPoses()) {

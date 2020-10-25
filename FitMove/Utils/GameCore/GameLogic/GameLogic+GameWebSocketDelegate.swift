@@ -8,6 +8,7 @@
 import Foundation
 
 extension GameLogic: GameServerWebsocketDelegate {
+    
     func didReceiveMessage(_ message: String) {
         if message == "START" {
             gameState = .started
