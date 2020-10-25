@@ -11,7 +11,6 @@ import MLKit
 class GamePlayMirror: GameCoreMechanic, GamePlay {
     let id:UUID = UUID.init()
     func onGamePlay(pose: Pose) {
-        // IF Message from server start game, init timer
         if ImageProcessor.checkPose(pose: pose, wantedPose: getCurrentPoses()) {
             pushCorrectToServer()
             deactiveTimer()
@@ -32,10 +31,6 @@ class GamePlayMirror: GameCoreMechanic, GamePlay {
     
     private func pushDoneToServer() {
         // Websocket push done server
-    }
-    
-    func reInit() {
-        
     }
     
     func timerStart() {

@@ -13,5 +13,4 @@ protocol GamePlay {
     func settingTimer()
     func timerStart()
     func deactiveTimer()
-    func reInit()
 }

@@ -11,7 +11,11 @@ import MLKit
 extension GamePlayMirror: GameServerWebsocketDelegate {
     
     func didReceiveMessage(_ message: String) {
-        // Do do somthing when message comein
+        // Do do somthing when message come in
+        
+        // if message == startgame
+        //      true: initTimer()
+       
     }
     
     func onDisconnect() {
