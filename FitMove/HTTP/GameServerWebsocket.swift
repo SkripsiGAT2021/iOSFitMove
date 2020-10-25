@@ -12,9 +12,9 @@ class GameServerWebsocket: WebSocketDelegate {
     static var instance:GameServerWebsocket? = nil
     let socket:WebSocket
     var isConnected = false
-    var delegate:GameServerWebsocketDelegate? = nil
+    var clients:[GameServerWebsocketDelegate] = []
     init() {
-        socket = WebSocket(request: URLRequest(url: URL(string: "ws://192.168.100.5:8000")!))
+        socket = WebSocket(request: URLRequest(url: URL(string: APIEndpoint.wsbase)!))
         socket.delegate = self
         socket.connect()
         var iteration = 0
@@ -64,14 +64,14 @@ class GameServerWebsocket: WebSocketDelegate {
     }
     
     private func receiveMessage(_ message:String) {
-        if let delegate = self.delegate {
+        for delegate in clients {
             delegate.didReceiveMessage(message)
         }
     }
     
     private func isDisconnected() {
         self.isConnected = false
-        if let delegate = self.delegate {
+        for delegate in clients {
             delegate.onDisconnect()
         }
     }
@@ -80,5 +80,15 @@ class GameServerWebsocket: WebSocketDelegate {
     
     func send(_ message:String) {
         socket.write(string: message)
+    }
+    
+    func subscribe(_ delegate:GameServerWebsocketDelegate) {
+        self.clients.append(delegate)
+    }
+    
+    func unsubscribe(_ delegate:GameServerWebsocketDelegate) {
+        self.clients.removeAll { del in
+            return del.id == delegate.id
+        }
     }
 }
