@@ -10,15 +10,21 @@
 		421905A32532D80F00384E38 /* GameServerWebsocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A22532D80F00384E38 /* GameServerWebsocketDelegate.swift */; };
 		421905A62532DF7400384E38 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A52532DF7400384E38 /* DummyViewController.swift */; };
 		421905A92532F4A200384E38 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421905A82532F4A200384E38 /* ImageProcessor.swift */; };
+		4227D48A25441B010008E117 /* Pose+PointMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227D48925441B010008E117 /* Pose+PointMechanism.swift */; };
+		422DB49B25440B1600802313 /* GamePose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DB49A25440B1600802313 /* GamePose.swift */; };
 		4230B0AE2532B63F00BBFC43 /* GameServerWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230B0AD2532B63F00BBFC43 /* GameServerWebsocket.swift */; };
 		424920802537569D00AAB605 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249207F2537569D00AAB605 /* APIEndpoint.swift */; };
 		424920842537574200AAB605 /* HTTPRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424920832537574200AAB605 /* HTTPRequst.swift */; };
+		42500B8625455659008D08F2 /* GamePlayMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42500B8525455659008D08F2 /* GamePlayMechanism.swift */; };
+		42500B8925455693008D08F2 /* GamePlayMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42500B8825455693008D08F2 /* GamePlayMirror.swift */; };
+		42500B8E254556AF008D08F2 /* GamePlayMirror+GameWebSocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42500B8D254556AF008D08F2 /* GamePlayMirror+GameWebSocketDelegate.swift */; };
 		42596E58253724A800778B1F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42596E57253724A800778B1F /* Auth.swift */; };
 		42860C442533F593008DB889 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42860C432533F593008DB889 /* GameLogic.swift */; };
-		42860C4D2533FA51008DB889 /* GameMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42860C4C2533FA51008DB889 /* GameMechanics.swift */; };
+		42860C4D2533FA51008DB889 /* GameCoreMechanic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42860C4C2533FA51008DB889 /* GameCoreMechanic.swift */; };
 		429A7680253352CA00FAB585 /* VideoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429A767F253352CA00FAB585 /* VideoUtils.swift */; };
 		429A768325336AB200FAB585 /* GamePoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429A768225336AB200FAB585 /* GamePoseDetector.swift */; };
 		42AD8CAA2537E29500CC06FB /* LocalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD8CA92537E29500CC06FB /* LocalDB.swift */; };
+		42ADF63D254490440063EE79 /* GameLogic+GameWebSocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF63C254490440063EE79 /* GameLogic+GameWebSocketDelegate.swift */; };
 		42BB2AB82531FAA100F19D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2AB72531FAA100F19D25 /* AppDelegate.swift */; };
 		42BB2ABA2531FAA100F19D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2AB92531FAA100F19D25 /* SceneDelegate.swift */; };
 		42BB2ABC2531FAA100F19D25 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB2ABB2531FAA100F19D25 /* GameVC.swift */; };
@@ -35,15 +41,21 @@
 		421905A22532D80F00384E38 /* GameServerWebsocketDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServerWebsocketDelegate.swift; sourceTree = "<group>"; };
 		421905A52532DF7400384E38 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		421905A82532F4A200384E38 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		4227D48925441B010008E117 /* Pose+PointMechanism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+PointMechanism.swift"; sourceTree = "<group>"; };
+		422DB49A25440B1600802313 /* GamePose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePose.swift; sourceTree = "<group>"; };
 		4230B0AD2532B63F00BBFC43 /* GameServerWebsocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServerWebsocket.swift; sourceTree = "<group>"; };
 		4249207F2537569D00AAB605 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 		424920832537574200AAB605 /* HTTPRequst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequst.swift; sourceTree = "<group>"; };
+		42500B8525455659008D08F2 /* GamePlayMechanism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayMechanism.swift; sourceTree = "<group>"; };
+		42500B8825455693008D08F2 /* GamePlayMirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayMirror.swift; sourceTree = "<group>"; };
+		42500B8D254556AF008D08F2 /* GamePlayMirror+GameWebSocketDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GamePlayMirror+GameWebSocketDelegate.swift"; sourceTree = "<group>"; };
 		42596E57253724A800778B1F /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		42860C432533F593008DB889 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
-		42860C4C2533FA51008DB889 /* GameMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMechanics.swift; sourceTree = "<group>"; };
+		42860C4C2533FA51008DB889 /* GameCoreMechanic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoreMechanic.swift; sourceTree = "<group>"; };
 		429A767F253352CA00FAB585 /* VideoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUtils.swift; sourceTree = "<group>"; };
 		429A768225336AB200FAB585 /* GamePoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePoseDetector.swift; sourceTree = "<group>"; };
 		42AD8CA92537E29500CC06FB /* LocalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDB.swift; sourceTree = "<group>"; };
+		42ADF63C254490440063EE79 /* GameLogic+GameWebSocketDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameLogic+GameWebSocketDelegate.swift"; sourceTree = "<group>"; };
 		42BB2AB42531FAA100F19D25 /* FitMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BB2AB72531FAA100F19D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BB2AB92531FAA100F19D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +99,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		422DB49D254414D000802313 /* PoseDetector */ = {
+			isa = PBXGroup;
+			children = (
+				421905A82532F4A200384E38 /* ImageProcessor.swift */,
+				429A768225336AB200FAB585 /* GamePoseDetector.swift */,
+				4227D48925441B010008E117 /* Pose+PointMechanism.swift */,
+			);
+			path = PoseDetector;
+			sourceTree = "<group>";
+		};
 		4230B0A82531FDDE00BBFC43 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +123,9 @@
 		4230B0AA2531FE0700BBFC43 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				421905A82532F4A200384E38 /* ImageProcessor.swift */,
+				42ADF63A2544901E0063EE79 /* GameCore */,
+				422DB49D254414D000802313 /* PoseDetector */,
 				429A767F253352CA00FAB585 /* VideoUtils.swift */,
-				429A768225336AB200FAB585 /* GamePoseDetector.swift */,
-				42860C432533F593008DB889 /* GameLogic.swift */,
-				42860C4C2533FA51008DB889 /* GameMechanics.swift */,
 				42AD8CA92537E29500CC06FB /* LocalDB.swift */,
 			);
 			path = Utils;
@@ -126,8 +146,54 @@
 		4230B0AC2531FEF600BBFC43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				422DB49A25440B1600802313 /* GamePose.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		42500B8C25455696008D08F2 /* GamePlayMirror */ = {
+			isa = PBXGroup;
+			children = (
+				42500B8825455693008D08F2 /* GamePlayMirror.swift */,
+				42500B8D254556AF008D08F2 /* GamePlayMirror+GameWebSocketDelegate.swift */,
+			);
+			path = GamePlayMirror;
+			sourceTree = "<group>";
+		};
+		42ADF63A2544901E0063EE79 /* GameCore */ = {
+			isa = PBXGroup;
+			children = (
+				42ADF6402544954C0063EE79 /* GameMechanics */,
+				42ADF63B254490290063EE79 /* GameLogic */,
+			);
+			path = GameCore;
+			sourceTree = "<group>";
+		};
+		42ADF63B254490290063EE79 /* GameLogic */ = {
+			isa = PBXGroup;
+			children = (
+				42860C432533F593008DB889 /* GameLogic.swift */,
+				42ADF63C254490440063EE79 /* GameLogic+GameWebSocketDelegate.swift */,
+			);
+			path = GameLogic;
+			sourceTree = "<group>";
+		};
+		42ADF6402544954C0063EE79 /* GameMechanics */ = {
+			isa = PBXGroup;
+			children = (
+				42500B8525455659008D08F2 /* GamePlayMechanism.swift */,
+				42860C4C2533FA51008DB889 /* GameCoreMechanic.swift */,
+				42ADF641254495560063EE79 /* GameMechanicsImpl */,
+			);
+			path = GameMechanics;
+			sourceTree = "<group>";
+		};
+		42ADF641254495560063EE79 /* GameMechanicsImpl */ = {
+			isa = PBXGroup;
+			children = (
+				42500B8C25455696008D08F2 /* GamePlayMirror */,
+			);
+			path = GameMechanicsImpl;
 			sourceTree = "<group>";
 		};
 		42BB2AAB2531FAA100F19D25 = {
@@ -297,18 +363,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422DB49B25440B1600802313 /* GamePose.swift in Sources */,
 				4230B0AE2532B63F00BBFC43 /* GameServerWebsocket.swift in Sources */,
 				42860C442533F593008DB889 /* GameLogic.swift in Sources */,
 				421905A62532DF7400384E38 /* DummyViewController.swift in Sources */,
 				42BB2ABC2531FAA100F19D25 /* GameVC.swift in Sources */,
-				42860C4D2533FA51008DB889 /* GameMechanics.swift in Sources */,
+				42860C4D2533FA51008DB889 /* GameCoreMechanic.swift in Sources */,
 				42AD8CAA2537E29500CC06FB /* LocalDB.swift in Sources */,
+				42ADF63D254490440063EE79 /* GameLogic+GameWebSocketDelegate.swift in Sources */,
 				42E8AB3925371336002DA01E /* SignInVC.swift in Sources */,
+				42500B8625455659008D08F2 /* GamePlayMechanism.swift in Sources */,
 				429A7680253352CA00FAB585 /* VideoUtils.swift in Sources */,
 				42BB2AB82531FAA100F19D25 /* AppDelegate.swift in Sources */,
+				42500B8925455693008D08F2 /* GamePlayMirror.swift in Sources */,
 				421905A92532F4A200384E38 /* ImageProcessor.swift in Sources */,
 				421905A32532D80F00384E38 /* GameServerWebsocketDelegate.swift in Sources */,
+				4227D48A25441B010008E117 /* Pose+PointMechanism.swift in Sources */,
 				42E8AB1E2536ED83002DA01E /* HomeVC.swift in Sources */,
+				42500B8E254556AF008D08F2 /* GamePlayMirror+GameWebSocketDelegate.swift in Sources */,
 				42596E58253724A800778B1F /* Auth.swift in Sources */,
 				429A768325336AB200FAB585 /* GamePoseDetector.swift in Sources */,
 				42BB2ABA2531FAA100F19D25 /* SceneDelegate.swift in Sources */,
