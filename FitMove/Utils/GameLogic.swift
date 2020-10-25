@@ -20,7 +20,7 @@ enum GameMode {
 }
 
 class GameLogic: GameServerWebsocketDelegate {
-    
+    let id: UUID = UUID.init()
     var gameState:GameState = .notReady
     var webSocket = GameServerWebsocket.getInstance()
     var gameMechanic:GameMechanics

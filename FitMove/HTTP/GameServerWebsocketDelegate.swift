@@ -8,6 +8,7 @@
 import Foundation
 
 protocol GameServerWebsocketDelegate {
+    var id:UUID { get }
     func didReceiveMessage(_ message:String)
     func onDisconnect()
 }
