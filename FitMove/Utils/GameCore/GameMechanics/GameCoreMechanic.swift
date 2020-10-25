@@ -12,6 +12,7 @@ class GameCoreMechanic {
     let websocket = GameServerWebsocket.getInstance()
     private var poses:[GamePose] = []
     var currentPoses:GamePose?
+    var timer: Timer?
     
     func setGamePoses(posed:[GamePose]) {
         self.poses = posed
