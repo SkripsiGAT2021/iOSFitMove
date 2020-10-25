@@ -8,10 +8,10 @@
 import Foundation
 import MLKit
 
-protocol GamePlay {
+@objc protocol GamePlay {
     func onGamePlay(pose: Pose)
-    func settingTimer()
+    func settingTimer()->Timer
     func timerStart()
     func deactiveTimer()
-    func reInit()
+    @objc func onTimerEnd()
 }
